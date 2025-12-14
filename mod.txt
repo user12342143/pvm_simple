@@ -1,0 +1,6 @@
+name = "Simple Viewmodel Mod"
+description = "Adjustable viewmodel position and rotation mod for Payday 2"
+author = "user12342143"
+version = "1.0.0"
+blt_version = "2.0"
+priority = 1000
