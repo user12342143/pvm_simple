@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod>
+    <info>
+        <name>PVM Simple</name>
+        <version>1.0.0</version>
+        <author>user12342143</author>
+        <description>A lightweight Lua-based viewmodel modification mod with customizable adjustments</description>
+        <game>payday2</game>
+    </info>
+    
+    <scripts>
+        <script type="lua" path="lua/config.lua" />
+        <script type="lua" path="lua/pvm_simple.lua" />
+    </scripts>
+    
+    <settings>
+        <setting name="enabled" type="bool" default="true" />
+        <setting name="position_x" type="slider" min="-100" max="100" default="0" />
+        <setting name="position_y" type="slider" min="-100" max="100" default="0" />
+        <setting name="position_z" type="slider" min="-100" max="100" default="0" />
+        <setting name="rotation_yaw" type="slider" min="-180" max="180" default="0" />
+        <setting name="rotation_pitch" type="slider" min="-180" max="180" default="0" />
+        <setting name="rotation_roll" type="slider" min="-180" max="180" default="0" />
+    </settings>
+</mod>
